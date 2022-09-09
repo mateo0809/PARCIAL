@@ -87,10 +87,33 @@
   
 }
 
+.divP3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 5px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 100px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+  
+}
+
 .contenedor1n{
     grid-column: 2 / 2;
     grid-row: 1;
     margin-right: 0px;
+}
+
+.contenedor1v{
+    grid-column: 2 / 2;
+    grid-row: 1;
+    
+    
 }
 .contenedor2n{
     grid-column: 1 / 2;
@@ -102,6 +125,14 @@
 #p1{
     margin-bottom: 20px;
     text-align: end;
+}
+
+#p1v{
+    margin-bottom: 20px;
+    text-align: end;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0%;
 }
 
 #p2{
@@ -118,4 +149,10 @@
 #narino{
     text-align: justify;
     margin-bottom: 100px;
+}
+
+#valle{
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
